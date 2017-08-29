@@ -4,10 +4,12 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title >Crystal Game</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </head>
 
@@ -19,16 +21,7 @@
 <div class = "game">
 
 <div class = "crystals">
-    <button id = "1">
-        <img src="assets/images/Diamond-Remix-3-by-Merlin2525-2400px.png" class = "gem" alt = "diamond">
-    </button>
-    <button id = "2">
-        <img class = "gem" src="assets/images/rubi-2400px.png" alt = "ruby"></button>
-    <button id = "3">
-        <img class = "gem" src="assets/images/saphire-2400px.png" alt = "sapphire"></button>
-    <button id="4">
-        <img  class = "gem" src="assets/images/topas-2400px.png" alt = "topaz">
-    </button>
+
 </div>
 
 <div class = "scoring">
@@ -45,14 +38,14 @@
     <h1 id = "target-score">75</h1>
     <hr>
     <h4> Your current score is: </h4>
-    <h1 id = "current-score"> ?? </h1>
+    <h1 id = "current-score"> 0 </h1>
     <hr>
-    <h4 id = "player-wins">Wins:</h4>
+    <h4>Wins: <span  id = "player-wins"></span></h4>
     <hr>
-    <h4 is = "player=losses">Losses: </h4>
+    <h4>Losses: <span  id = "player-losses"></span></h4>
     <hr>
-    <br>
-    <button>Reset Game</button>
+    <h4 id = "previous-results" style = "display: none">You <span id = "last-result"></span> your last game. Target: <span id = "last-target">0</span> Score: <span id = "last-score"></span></h4>
+    <button id = "reset">Reset Game</button>
 </div>
 
 
@@ -61,6 +54,7 @@
     <h6>&copy; Kathy Satterlee 2017</h6>
 </footer>
 
+<script></script>
 </body>
 
 </html>
