@@ -92,6 +92,7 @@ $(document).ready(function() {
     function reset() {
         wins = 0;
         losses = 0;
+        $('#previous-results').hide();
 
         newGame();
 
