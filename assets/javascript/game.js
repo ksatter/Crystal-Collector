@@ -19,7 +19,7 @@ $(document).ready(function() {
     function newGame() {
         userScore = 0;
         // Create target score between 50 and 75nj
-        targetScore = randomNumber(50, 75);
+        targetScore = randomNumber(19, 120);
         $("#current-score").text(userScore);
         $("#target-score").text(targetScore);
         $("#player-wins").text(wins);
@@ -66,7 +66,7 @@ $(document).ready(function() {
 
         for (var x = 1; x <= crystalImages.length;) {
             //create random value between 5 and 15
-            var newNumber = randomNumber(5, 15);
+            var newNumber = randomNumber(1, 12);
             //verify that number is not already assigned and push to array until there is a number for every crystal
             if (crystalValues.indexOf(newNumber) < 0) {
                 crystalValues.push(newNumber);
