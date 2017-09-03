@@ -25,13 +25,6 @@
 </div>
 
 <div class = "scoring">
-    <div id = intro>
-        <p>You have been given four different crystals, each with a random value. Can you figure out how many points each is worth and reach your target score?</p>
-        <hr>
-        <p>In order to win, you must reach your target without going over</p>
-        <hr>
-        <p>Point values change every time a new game starts, so don't get too comfortable!</p>
-    </div>
 
 
     <h4> Your target score is: </h4>
@@ -40,9 +33,15 @@
     <h4> Your current score is: </h4>
     <h1 id = "current-score"> 0 </h1>
     <hr>
-    <h4>Wins: <span  id = "player-wins"></span></h4>
-    <hr>
-    <h4>Losses: <span  id = "player-losses"></span></h4>
+    <div id = intro>
+        <p>You have been given four different crystals, each with a random value. Can you figure out how many points each is worth and reach your target score?</p>
+        <hr>
+        <p>In order to win, you must reach your target without going over</p>
+        <hr>
+        <p>Point values change every time a new game starts, so don't get too comfortable!</p>
+    </div>
+
+    <h4>Wins: <span  id = "player-wins"></span> Losses: <span  id = "player-losses"></span></h4>
     <hr>
     <h4 id = "previous-results" style = "display: none">You <span id = "last-result"></span> your last game. Target: <span id = "last-target">0</span> Score: <span id = "last-score"></span></h4>
     <button id = "reset">Reset Game</button>

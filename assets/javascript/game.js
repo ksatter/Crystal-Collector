@@ -65,7 +65,7 @@ $(document).ready(function() {
         crystalImages = ['assets/images/diamond.png', "assets/images/ruby.png", "assets/images/sapphire.png", "assets/images/topaz.png"];
 
         for (var x = 1; x <= crystalImages.length;) {
-            //create random value between 5 and 15
+            //create random value between 1 and 12
             var newNumber = randomNumber(1, 12);
             //verify that number is not already assigned and push to array until there is a number for every crystal
             if (crystalValues.indexOf(newNumber) < 0) {

@@ -97,6 +97,7 @@ header {
 
 .crystals {
     width: 200px;
+    display: inline-flex;
     padding-top: 20px;
     margin-top: 20px;
     border: 1px solid black;
@@ -126,14 +127,16 @@ footer{
     .crystals{
         padding: 10px;
         width: auto;
+        height! 100px;
     }
     .scoring{
         float: left;
         width: auto;
+        height: auto;
     }
     .gem{
-        width: 20%;
-        height: 100px;
+        width: 15%;
+        height: 50px;
         float: left;
         padding: 10px;
     }
