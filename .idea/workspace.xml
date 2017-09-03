@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2973b1a-ef79-480b-8aaf-6f40b2d17a0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/game.js" afterPath="$PROJECT_DIR$/assets/javascript/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -227,7 +224,7 @@
       <workItem from="1504307831016" duration="1833000" />
       <workItem from="1504330451078" duration="45000" />
       <workItem from="1504330845238" duration="653000" />
-      <workItem from="1504448726826" duration="1904000" />
+      <workItem from="1504448726826" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;page created&quot;">
       <created>1504012578785</created>
@@ -264,11 +261,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504330483280</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;Tweaked for better viewing on mobile&quot;">
+      <created>1504450669063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504450669063</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64856000" />
+    <option name="totallyTimeSpent" value="64896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="424" y="0" width="1503" height="1047" extended-state="0" />
@@ -327,7 +331,8 @@
     <MESSAGE value="&quot;game working&quot;" />
     <MESSAGE value="&quot;Deleted instructions&quot;" />
     <MESSAGE value="&quot;Updated values&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Updated values&quot;" />
+    <MESSAGE value="&quot;Tweaked for better viewing on mobile&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Tweaked for better viewing on mobile&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
