@@ -87,17 +87,16 @@ header {
     margin: 0 auto;
 }
 
- .gem{
-     height: 150px;
-     background-color: white;
-     display: block;
-     margin: auto;
- }
+.gem{
+    height: 150px;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
 
 
 .crystals {
     width: 200px;
-    display: inline-flex;
     padding-top: 20px;
     margin-top: 20px;
     border: 1px solid black;
@@ -127,16 +126,15 @@ footer{
     .crystals{
         padding: 10px;
         width: auto;
-        height! 100px;
+        display: inline-flex;
     }
     .scoring{
         float: left;
         width: auto;
-        height: auto;
     }
     .gem{
-        width: 15%;
-        height: 50px;
+        width: 20%;
+        height: 100px;
         float: left;
         padding: 10px;
     }
